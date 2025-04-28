@@ -1,0 +1,57 @@
+.body{
+    border-right: 20px solid grey;
+    border-left: 20px solid grey;
+}
+.horizontal{
+    margin: 0px;
+    border-bottom: 5px solid grey;
+    width: 350px;
+}
+.nav, .bg-colour, .ask-button{
+    background-color: #ac1313;
+}
+.bg-img{
+    background-image: url('../assets/form_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 900px;
+}
+.word-question{
+    color: #072B5B;
+}
+.case-textarea{
+    width: 555px;
+}
+.confidential{
+    transform: rotate(8deg);
+}
+.banner{
+    height: 80%;
+}
+.banner-1{
+    height: 70%
+}
+.DUI, .case, .blog, .credentials, .area, .testimonials, .areas, .us{
+    color:  #750f0f;
+}
+.click-btn{
+    border-top: 3px solid grey;
+}
+.button-show {
+    /* width: 75%; */
+    border-color: var(--border-color) !important;
+    border-width: 2px !important;
+}
+.dui-main{
+    border-left: 12px solid #611915;
+  }
+  .menu-area-here{
+    opacity: 0.4;
+  }
+  @media (min-width:280px) and (max-width: 520px) {
+    .horizontal{
+        width: 300px;
+    }
+    .being-charged{
+        font-size: 11px; 
+    }
+  }
