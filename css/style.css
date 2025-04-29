@@ -13,7 +13,8 @@
 .bg-img{
     background-image: url('../assets/form_bg.jpg');
     background-repeat: no-repeat;
-    background-size: 900px;
+    background-size: 1400px;
+    height: 100%;
 }
 .word-question{
     color: #072B5B;
@@ -23,12 +24,6 @@
 }
 .confidential{
     transform: rotate(8deg);
-}
-.banner{
-    height: 80%;
-}
-.banner-1{
-    height: 70%
 }
 .DUI, .case, .blog, .credentials, .area, .testimonials, .areas, .us{
     color:  #750f0f;
@@ -47,6 +42,9 @@
   .menu-area-here{
     opacity: 0.4;
   }
+  .banner-1{
+    height: 50%;
+}
   @media (min-width:280px) and (max-width: 520px) {
     .horizontal{
         width: 300px;
@@ -54,4 +52,10 @@
     .being-charged{
         font-size: 11px; 
     }
+  }
+  @media (min-width:1300px) and (min-width:1400px){
+    
+  }
+  .asunt{
+    font-size: 13px;
   }
